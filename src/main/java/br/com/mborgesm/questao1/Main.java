@@ -18,6 +18,7 @@ public class Main {
         int totalDeMeses = sc.nextInt();
         sc.nextLine();
 
+        sc.close();
         calculaParcelas(saldoDevedorTotal, jurosAoMes, totalDeMeses);
     }
 

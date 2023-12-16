@@ -16,6 +16,7 @@ public class Main {
         System.out.println("Qual a unidade de destino dessa temperatura? [C, K, F]");
         char unidadeDestino = sc.nextLine().toUpperCase().charAt(0);
 
+        sc.close();
         double temperaturaConvertida = 0;
 
         if (unidadeOrigem == 'C') {
